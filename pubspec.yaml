@@ -10,6 +10,12 @@ dependencies:
   flutter_cache_manager: ^3.0.0
   octo_image: ^1.0.0
 
+dependency_overrides:
+  image:
+    git:
+      url: https://github.com/leopi99/image
+      ref: master
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
